@@ -1,0 +1,466 @@
+Typing in Insert mode extends the line, but in Replace mode 
+the line length doesn't change.
+
+
+skill 2:
+var foo = 1
+var bar = 'a'
+var foobar = foo + bar
+
+
+skill 3:
+var foo = "method("+argument1+","+argument2+")";
+
+skill 5:
+...We're waiting for copy before the site can go live...
+...If you are copy with this, let's go ahead with it...
+...We'll launch as soon as we have the copy...
+
+skill 9:
+The end is nigh
+
+skill 10:
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+.blog { background-position: 0px 0px }
+
+
+
+skill 11:
+Delete more one word
+
+
+
+skill 12: gu, gU, g~, 
+
+
+
+skill 13:insert mode
+<C-h> , <C-w> , <C-u>
+
+
+skill 14: <Esc>, <C-[>, <C-o>
+
+
+
+skill 15:
+Practical Vim, by Drew Neil
+Read Drew Neil's 
+
+
+
+skill 16:
+6 chairs, each costing $35, totals $
+
+
+skill 17:
+<C-v> : <C-v>065 ,  <C-v>u00bf
+
+
+skill 18:
+<C-k>?I  
+
+
+
+skill 19:
+Typing in Insert mode extends the line. But in Replace mode
+the line length doesn't change.
+
+gR (virtual replate)
+
+skill 20:
+v ,   V,  <C-v>   , gv   , o  
+
+skill 21:
+Select from here to here.
+
+
+
+skill 22:
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+print a,
+a, b = b, a+b
+fib(42)
+
+
+skill 23:
+<a href="#">one</a>
+<a href="#">two</a>
+<a href="#">three</a>
+
+
+
+
+skill 24:
+chapter                   page
+chapter                   page
+normal mode                 15
+insert mode                 31
+visual mode                 44
+
+
+
+skill 25:
+li.one   a{ background-image: url('/images/sprite.png'); }
+li.two   a{ background-image: url('/images/sprite.png'); }
+li.three a{ background-image: url('/images/sprite.png'); }
+
+
+skill 26:
+var foo = 1
+var bar = 'a'
+var foobar = foo + bar
+
+command: a , A ;  i ,I ; o O; x X; 
+
+skill 27:ex
+(1) :edit  , :write , :tabnew, :split,  :prev,   :next,   :bprev,   :bnext 
+(2) :copy , :delete, :yank,  :put,   :subsitute  , :global
+(3) :[range]delete [x]
+(4) :[range]yank [x]
+(5) :[line]put [x]
+(6) :[range]copy {address}
+(7) :[range]move {address}
+(8) :[range]join
+(9) :[range]substitute/{pattern}/{string}/[flags]
+(10):[range]global/{pattern}/[cmd]
+
+skill 28:
+ <!doctype html>
+ <html>
+   <head><title>practical vim</title></head>
+   <body><h1>practical vim</h1></body>
+ </html>
+
+
+
+
+:.,$p
+:%p
+:%/s/skill/skill/
+
+
+skill 29:
+ <!doctype html>
+ <html>
+   <head><title>practical vim</title></head>
+   <body><h1>practical vim</h1></body>
+ </html>
+
+
+
+:/<html>/, /<\/html>/p
+:/<html>/+1,/<\/html>/-1p
+:.,.+3p
+
+1
+$
+0
+.
+'m
+'<
+'>
+%
+
+
+copy and move command:
+:copy  :co  :t
+:move  :m
+
+
+exmple:
+:6t.
+:6copy.
+:t6
+:t.
+:t$
+:'<,'>t0  
+
+
+skill 30:
+:%normal a;
+:%nromal i//
+
+
+
+skill 31:
+repeat ext command use @: , @@
+
+
+skill 32:
+:col<c-d> 
+
+
+
+command j: 
+join two line together
+
+
+
+
+skill 33:
+var tally;
+for (tally=1; tally <= 10; tally++) {
+  // do something with tally
+};
+
+
+use <c-r><c-w> to insert current word to ext command line
+
+skill 34:
+command window:
+press q: to open the window
+
+
+{start}           write
+                  !ruby %
+a␣|<esc>          write |
+                  !ruby %
+j                 write | !ruby %
+:s/write/update   update | !ruby %
+
+skill 35:
+use command :!ls in ext to run shell command.
+
+use shell command in ex to open a shell session.
+
+
+
+
+skill 37:
+:args *    :args *.*
+:args **   :args **/*.js     :args **/*.*
+
+
+:args `cat chapters`
+
+:args {arglist}   
+:next   :prev     :argdo
+
+
+
+skill 38:
+:qall!
+:wall
+:e[dit]
+
+
+skill 51:
+var tpl = [
+    '<a href="{url}">{title}</a>'
+]
+
+
+command list:
+vi}
+a"
+i>
+it
+at
+a]
+
+
+'<a href="{url}">{title}</a>'
+'<a href="#">click here</a>'
+
+command list:
+ci"#<esc>
+citclick here<esc>
+
+
+
+
+expr {[(a+b)*c+5] - 3} = 3 , # <Include>This "Is" A Sample</Include>
+
+a)  or  ab
+i)  or  ib
+a}  or  ab
+i}  or  ib
+a]
+i]
+a>
+i>
+a'
+i'
+a"
+i"
+a`
+i`
+at
+it
+
+
+
+
+
+skill 59:
+Practica lvim
+------->
+Practical vim
+
+
+2) line two
+1) line one
+3) line three
+
+------->
+
+1) line one
+2) line two
+3) line three
+
+
+
+skill 60:
+
+collection = getCollection();
+process(somethingInTheWay, target);
+
+-------->
+
+collection = getCollection();
+process(collection, target);
+
+
+
+named register: a-z
+
+use register a to complete last task:
+
+collection = getCollection();
+process(somethingInTheWay, target);
+
+------------>
+
+collection = getCollection();
+process(collection, target);
+
+
+blackhole register _
+"_d{motion}
+
+
+use register _ to complete last task:
+
+collection = getCollection();
+process(somethingInTheWay, target);
+
+readonly registers:
+"%
+"#
+".
+":
+"/
+
+
+
+skill 61:
+use visual mode to do last task:
+collection = getCollection();
+process(somethingInTheWay, target);
+
+-------->
+
+collection = getCollection();
+process(collection, target);
+
+
+
+
+
+
+
+
+
+
+
+
+skill 64(Macro):
+task:
+
+foo = 1
+bar = 'a'
+foobar = foo + bar
+
+------->
+
+
+var foo = 1;
+var bar = 'a';
+var foobar = foo + bar;
+
+
+skill 65:
+x = "("+a+","+b+","+c+","+d+","+e+")";
+
+
+x = "(" + a + "," + b + "," + c + "," + d + "," + e + ")";
+
+skill 67
+1. one
+2. two
+3. three
+4. four
+
+
+1. one
+2. two
+// break up the monotony
+3. three
+4. four
+
+skill 70:
+
+partridge in a pear tree
+turtle doves
+French hens
+calling birds
+golden rings
+
+
+----->
+
+1) partridge in a pear tree
+2) turtle doves
+3) French hens
+4) calling birds
+5) golden rings
+
+skill 71:
+
+
+
+skill 72:
+\c   \C
+
+
+
+FRance
+France
+france
+FRench
+
+
+
+skill 73:
+body     { color: #3c3c3c; }
+a        { color: #0000EE; }
+strong   { color: #000; }
+strong   { color: #4000; }
+
+
+skill 74:
+
+
+
+
+
+skill 75:
+
+I love Paris in the
+the springtime.
+
+
+/\v<(\w+)\_s+\1>

@@ -1,0 +1,150 @@
+Typing in Insert mode extends the line, but in Replace mode 
+the line length doesn't change.
+
+
+skill 2:
+var foo = 1
+var bar = 'a'
+var foobar = foo + bar
+
+
+skill 3:
+var foo = "method("+argument1+","+argument2+")";
+
+skill 5:
+...We're waiting for copy before the site can go live...
+...If you are content with this, let's go ahead with it...
+...We'll launch as soon as we have the copy...
+
+skill 9:
+The end is nigh
+
+skill 10:
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+
+
+
+skill 11:
+Delete more one word
+
+
+
+skill 12: gu, gU, g~, 
+
+
+
+skill 13:insert mode
+<C-h> , <C-w> , <C-u>
+
+
+skill 14: <Esc>, <C-[>, <C-o>
+
+
+
+skill 15:
+Practical Vim, by Drew Neil
+Read Drew Neil's 
+
+
+
+skill 16:
+6 chairs, each costing $35, totals $
+
+
+skill 17:
+<C-v> : <C-v>065 ,  <C-v>u00bf
+
+
+skill 18:
+<C-k>?I  
+
+
+
+skill 19:
+Typing in Insert mode extends the line. But in Replace mode
+the line length doesn't change.
+
+gR (virtual replate)
+
+skill 20:
+v ,   V,  <C-v>   , gv   , o  
+
+skill 21:
+Select from here to here.
+
+
+
+skill 22:
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+print a,
+a, b = b, a+b
+fib(42)
+
+
+skill 23:
+<a href="#">one</a>
+<a href="#">two</a>
+<a href="#">three</a>
+
+
+
+
+skill 24:
+Chapter                   Page
+Normal mode                 15
+Insert mode                 31
+Visual mode                 44
+
+
+
+skill 25:
+li.one   a{ background-image: url('/images/sprite.png'); }
+li.two   a{ background-image: url('/images/sprite.png'); }
+li.three a{ background-image: url('/images/sprite.png'); }
+
+
+skill 26:
+var foo = 1
+var bar = 'a'
+var foobar = foo + bar
+
+command: A , a ;  I ,i ; O o; X x; 
+
+skill 27:EX
+(1) :edit  , :write , :tabnew, :split,  :prev,   :next,   :bprev,   :bnext 
+(2) :copy , :delete, :yank,  :put,   :subsitute  , :global
+(3) :[range]delete [x]
+(4) :[range]yank [x]
+(5) :[line]put [x]
+(6) :[range]copy {address}
+(7) :[range]move {address}
+(8) :[range]join
+(9) :[range]substitute/{pattern}/{string}/[flags]
+(10):[range]global/{pattern}/[cmd]
+
+skill 28:
+ <!DOCTYPE html>
+ <html>
+   <head><title>Practical Vim</title></head>
+   <body><h1>Practical Vim</h1></body>
+ </html>
+
+
+
+
+:.,$p
+:%p
+:%/s/skill/SKILL/
+
+
+
+
+
+
+
+
+
+aaaa
