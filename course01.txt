@@ -1,23 +1,49 @@
 Typing in Insert mode extends the line, but in Replace mode 
 the line length doesn't change.
 
+skill 1:
+. mode
+(1) command: >G j . j.
 
 skill 2:
+(1) command: A;<Esc>j.j.
 var foo = 1
 var bar = 'a'
 var foobar = foo + bar
+(2) command:C I A o O D
+C == c$
+s == cl
+I == ^i
+A == $a
+o == A<CR>
+O == ko
+D == d$
+
 
 
 skill 3:
-var foo = "method("+argument1+","+argument2+")";
+(1) command:f+s + <Esc>;.;.;.
+from :var foo = "method("+argument1+","+argument2+")";
+to:   var foo = "method(" + argument1 + "," + argument2 + ")";
 
 skill 5:
+(1) command:*cwcopy<Esc>n.
+from:
+...We're waiting for content before the site can go live...
+...If you are content with this, let's go ahead with it...
+...We'll launch as soon as we have the content...
+to:
 ...We're waiting for copy before the site can go live...
-...If you are copy with this, let's go ahead with it...
+...If you are content with this, let's go ahead with it...
 ...We'll launch as soon as we have the copy...
 
 skill 9:
-The end is nigh
+(1) command: dbx
+(2) command: bdw
+(3) command: daw
+from: The end is nigh
+to:   The end is
+
 
 skill 10:
 .blog, .news { background-image: url(/sprite.png); }
@@ -245,6 +271,75 @@ skill 38:
 :qall!
 :wall
 :e[dit]
+
+skill 39:windows
+
+<C-w>s
+<C-w>v
+:sp[lit] {file}
+:vsp[lit] {file}
+
+
+<C-w>w
+<C-w>h
+<C-w>j
+<C-w>k
+<C-w>l
+
+:close <C-w>c
+:only  <C-w>o
+
+
+<C-w>=
+<C-w>|
+<C-w>=
+[N]<C-w>-
+[N]<C-w>|
+
+
+
+skill 40:Hwo to use tabs
+:tabe[dit] {filename}
+<C-w>T
+:tabc[lose]
+:tabo[nly]
+:tabn[ext] {N}      {N}gt
+:tabn[ext]          gt
+:tabp[revious]      gT
+
+
+
+
+skill 41:use edit command
+:pwd
+:edit %<Tab>
+:edit %%
+:edit %h<Tab>
+:edti %h<Tab>M<Tab>
+
+
+
+
+skill 42:
+configure path variable in ext:
+
+:set path+=app/**
+:find xxx.xxx
+:find Main.js<Tab>
+
+
+
+skill 43: netrw
+:edit .    :e .       <C-^>
+:Explore   :E
+
+
+
+
+skill 44: save file to non-exist path
+:edit xxxx/xxx/xxxx.yet
+:!mkdir -p %:h
+:write
 
 
 skill 51:
